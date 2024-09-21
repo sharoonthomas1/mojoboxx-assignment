@@ -1,0 +1,298 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.ride-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 40px;
+}
+
+.shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px 45px;
+    border-radius: 12px;
+
+}
+
+.shadow h1 {
+    margin-top: 0px;
+}
+
+.ride-location span {
+    color: #007BFF;
+}
+
+/* car-section */
+.car-sec {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+/* car collecttion */
+.car_img {
+    text-align: center;
+}
+
+.car_img h5 {
+    margin-top: -20px;
+}
+
+.car-collection {
+    width: 100%;
+    max-width: 910px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 12px;
+}
+
+/* trips */
+
+.packages {
+    padding: 50px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.package-card {
+    width: 405px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #EAECF0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.package-header,
+.package-heading,
+.package-heading_ {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.package-heading img,
+.package-heading_ img {
+    width: 24px;
+}
+
+.package-heading span,
+.package-heading_ span {
+    color: #475467;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.package-header {
+    justify-content: space-between;
+}
+
+.package-heading h4,
+.package-heading_ h4,
+.package-heading_ h5,
+.package-heading h5 {
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.package-heading h5 {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+.package-heading h3,
+.price,
+.package-heading_ h5 {
+    color: #007BFF;
+}
+
+.details {
+    font-size: 20px;
+    font-weight: bold;
+    color: #101828;
+    text-decoration: line-through;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #101828;
+}
+
+.price-sec {
+    padding: 40px 0;
+}
+
+.line {
+    margin: 5px 0 0 10px;
+}
+
+.heading_main {
+    background-color: #007BFF;
+    width: 100%;
+    max-width: 910px;
+    color: #fff;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.price2 {
+    font-size: 20px;
+}
+
+.price-chng {
+    text-decoration: line-through;
+    color: #e63c00;
+}
+
+.reserved-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.reserved-sec h1 {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.reserved-sec h2 {
+    margin-top: 0;
+}
+
+.ride {
+    color: #FF0004;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+input[type="text"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 8px 0px 8px 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #007BFF;
+}
+
+.primary-heading {
+    color: #475467;
+    padding-top: 10px;
+}
+
+.change {
+    padding-top: 15px;
+}
+
+.main h3 {
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    max-width: 950px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.total-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.footer_ {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkout-btn:hover {
+    background-color: #007bff83;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .packages {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .package-card,
+    .heading_main,
+    .footer {
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+}
